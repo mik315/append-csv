@@ -40,7 +40,6 @@ Rows from other files: .git was not appended, does not have csv extension.
 Appending 3693 rows from file:  NCDC-S-Lucia.csv to the dataset...
 
 Total rows appended to the dataset: 10545
-(base) mike@macOS append-csv % 
 ```
 
 ### Notes

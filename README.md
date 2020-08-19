@@ -32,15 +32,15 @@ I included the following files in the repo in case you want to test:
 The example:
 ```
 mike@macOS append-csv % rm NCDC-all.csv 
-mike@Miguels-MacBook-Pro append-csv % head -n 1 NCDC-TT.csv > NCDC-all.csv
-mike@Miguels-MacBook-Pro append-csv % python append-csv.py                
+mike@MmacOS append-csv % head -n 1 NCDC-TT.csv > NCDC-all.csv
+mike@macOS append-csv % python append-csv.py                
 Appending 6852 rows from file:  NCDC-TT.csv to the dataset...
 Rows from other files: README.md was not appended, does not have csv extension.
 Rows from other files: .git was not appended, does not have csv extension.
 Appending 3693 rows from file:  NCDC-S-Lucia.csv to the dataset...
 
 Total rows appended to the dataset: 10545
-(base) miguelramirez@Miguels-MacBook-Pro append-csv % 
+(base) mike@macOS append-csv % 
 ```
 
 ### Notes

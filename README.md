@@ -2,6 +2,7 @@
 Append as many CSV files are in a directory into a single csv file.
 
 This script is useful when:
+- You are not working into a Jupyter notebook.
 - Have more than one CSV file with many rows and need to consolidate those rows in a single file.
 - Your device does not have enough resources to have Excel appending the quantity of rows.
 - Your connection is too low or it is used for another thing different to upload the CSV files to Excel online.
@@ -31,7 +32,7 @@ I included the following files in the repo in case you want to test:
 
 The example:
 ```
-mike@macOS append-csv % rm NCDC-all.csv 
+mike@macOS append-csv % rm NCDC-all.csv
 mike@MmacOS append-csv % head -n 1 NCDC-TT.csv > NCDC-all.csv
 mike@macOS append-csv % python append-csv.py                
 Appending 6852 rows from file:  NCDC-TT.csv to the dataset...
